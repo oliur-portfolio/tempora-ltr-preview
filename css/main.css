@@ -1,0 +1,261 @@
+/* Default CSS Code */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus * {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.btn.focus,
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img,
+svg {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.h1,
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+.h2,
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.h3,
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.p-small {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.p-medium {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.p-large {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+.btn-sm {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #bf0029;
+  border-color: #bf0029;
+}
+
+.btn-primary:first-child:active,
+.btn-primary:active,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #980021;
+  border-color: #bf0029;
+}
+
+.btn-secondary {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+:not(.btn-check) + .btn-secondary:active,
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #bf0029;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding: 0 20px;
+}
+
+.primaryBg {
+  background-color: #bf0029;
+}
+
+.onPrimary {
+  color: #ffffff;
+}
+
+.secondaryBg {
+  background-color: #ffffff;
+}
+
+.onSecondary {
+  color: #000000;
+}
+
+.tertiaryBg {
+  background-color: #e4e333;
+}
+
+.tertiaryOverlayBg {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.onTertiary {
+  color: #000000;
+}
+
+.brandedBg {
+  background-color: #bf0029;
+}
+
+.brandedText {
+  color: #bf0029;
+}
+
+.onBranded {
+  color: #ffffff;
+}
+
+.surfaceBg {
+  background-color: #f5f5f5;
+}
+
+.onSurface {
+  color: #000000;
+}
+
+.surfaceContainerBg {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  background: #fff;
+  color: #000;
+}
+
+header,
+main {
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Default CSS Code */
+
+/* Reusable Code */
+
+.card {
+  border: 0;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+/* Reusable Code */
+
+/* Header Area */
+.navbar-brand {
+  width: 141px;
+}
+/* Header Area */
+
+/* Plans Area */
+.card__activable img {
+  width: 28px;
+}
+/* Plans Area */
